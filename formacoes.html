@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Icone do site -->
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  <!--Importando Fontes do google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--Importando arquivo de estilo CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Helí Piancó</title>
+</head>
+
+<!--Corpo da página-->
+<body>
+  <header>
+    <!--Div para padronização de tamanho da página-->
+    <div class="container">
+      <div class="header-info">
+        <!--Logo-->
+        <a href="/"><img src="./assets/logo.svg" alt=""></a>
+        <!--Tag que porta links de navegação entre as páginas-->
+        <nav class="menu">
+          <!--Links de navegação-->
+          <a href="/">Sobre mim</a>
+          <a href="/formacoes.html">Formações</a>
+          <a href="/portfolio.html">Portfólio</a>
+          <a href="/contato.html">Contato</a>
+        </nav>
+        <img src="./assets/menu.png" class="menu-mobile-image" id="menu-mobile-image" alt="">
+        <img src="./assets/menu-arrow.png" class="menu-mobile-image-arrow" id="menu-mobile-image-arrow" alt="">
+        <nav class="menu-mobile" id="menu-mobile">
+          <!--Links de navegação-->
+          <a href="/">Sobre mim</a>
+          <a href="/formacoes.html">Formações</a>
+          <a href="/portfolio.html">Portfólio</a>
+          <a href="/contato.html">Contato</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section formações-->
+  <section class="container">
+    <h2 class="titulo-pagina">Formações</h2>
+    <!--Lista de blocos-->
+    <ul class="formacoes">
+      <!-- Card -->
+      <li class="card">
+        <!--Link que engloba imagem e titulo-->
+        <a href="https://cursos.alura.com.br/user/netinhosp7/degree-excel-469744/certificate?lang=pt_BR" target="_blank">
+          <img src="./assets/Certificacoes/Excel.webp" alt="">
+          <h3>Excel</h3>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://cursos.alura.com.br/user/netinhosp7/degree-data-analysis-google-sheets-272925/certificate" target="_blank">
+          <img src="./assets/Certificacoes/analise-de-dados.webp" alt="">
+          <h3>Data Analysis</h3>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://cursos.alura.com.br/user/netinhosp7/degree-modelagem-dados-539767/certificate" target="_blank">
+          <img src="./assets/Certificacoes/modelagem-de-dados.webp" alt="">
+          <h3>Modelagem de Dados</h3>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://cursos.alura.com.br/user/netinhosp7/course/mysql-consultas-sql/certificate" target="_blank">
+          <img src="./assets/Certificacoes/SQL.webp" alt="">
+          <h3>SQL</h3>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://cursos.alura.com.br/user/netinhosp7/course/python-data-science-primeiros-passos/certificate" target="_blank">
+          <img src="./assets/Certificacoes/Python.webp" alt="">
+          <h3>Python</h3>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://cursos.alura.com.br/user/netinhosp7/course/power-bi-visualizando-dados/certificate" target="_blank">
+          <img src="./assets/Certificacoes/Powerbi.webp" alt="">
+          <h3>Power BI</h3>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://cursos.alura.com.br/user/netinhosp7/degree-javascript-front-end-374365/certificate" target="_blank">
+          <img src="./assets/Certificacoes/javascript.webp" alt="">
+          <h3>JavaScript</h3>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://cursos.alura.com.br/user/netinhosp7/degree-react-javascript-450960/certificate" target="_blank">
+          <img src="./assets/Certificacoes/react.webp" alt="">
+          <h3>React</h3>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

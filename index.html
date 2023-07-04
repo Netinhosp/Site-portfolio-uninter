@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!--Tipo de caracteres-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Icone do site -->
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  <!--Importando Fontes do google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--Importando arquivo de estilo CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--Título do site-->
+  <title>Helí Piancó</title>
+</head>
+<!--Corpo do arquivo HTML-->
+<body>
+  <!--Cabeçalho da página-->
+  <header>
+    <!--Div para padronização de tamanho da página-->
+    <div class="container">
+      <div class="header-info">
+        <!--Logo-->
+        <a href="/"><img src="./assets/logo.svg" alt=""></a>
+        <!--Tag que porta links de navegação entre as páginas-->
+        <nav class="menu">
+          <!--Links de navegação-->
+          <a href="/">Sobre mim</a>
+          <a href="/formacoes.html">Formações</a>
+          <a href="/portfolio.html">Portfólio</a>
+          <a href="/contato.html">Contato</a>
+        </nav>
+        <img src="./assets/menu.png" class="menu-mobile-image" id="menu-mobile-image" alt="">
+        <img src="./assets/menu-arrow.png" class="menu-mobile-image-arrow" id="menu-mobile-image-arrow" alt="">
+        <nav class="menu-mobile" id="menu-mobile">
+          <!--Links de navegação-->
+          <a href="/">Sobre mim</a>
+          <a href="/formacoes.html">Formações</a>
+          <a href="/portfolio.html">Portfólio</a>
+          <a href="/contato.html">Contato</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!--Section Banner-->
+  <section class="container">
+    <div class="banner">
+      <div class="banner-desc">
+        <!--Título principal da página-->
+        <h1>Helí Piancó</h1>
+        <!--Subtitulo-->
+        <h3>Data Science e Analytics</h3>
+        <!--Descrição-->
+        <p>Grande entusiasta da tecnologia e Inteligência Artificial.</p>
+      </div>
+      <div class="banner-image">
+        <img src="./assets/minha-foto.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!--Section Sobre mim-->
+  <section class="container">
+    <div class="sobre-mim">
+      <img src="./assets/vetor.svg" alt="">
+      <div class="sobre-mim-desc">
+        <p>Olá, sou estudante de Engenharia de Software na UNINTER e aluno da escola de Data Science na Alura. Minha jornada nessa área fascinante começou há algum tempo, quando me dei conta do poder que os dados têm em moldar nosso mundo e impulsionar descobertas surpreendentes.
+          Desde então, mergulhei de cabeça nesse campo multidisciplinar, explorando as possibilidades oferecidas pela análise de dados e as ferramentas avançadas que permitem extrair informações valiosas a partir de conjuntos de dados complexos. Cada linha de código que escrevo, cada algoritmo que desenvolvo, é uma oportunidade de desvendar insights ocultos e transformar dados brutos em conhecimento valioso.
+          Ao longo da minha jornada acadêmica e profissional, tenho me dedicado a aprimorar minhas habilidades técnicas, adquirindo conhecimentos sólidos em programação, estatística e aprendizado de máquina. Sei que a análise e a ciência de dados são áreas em constante evolução, por isso estou sempre em busca de novos desafios e oportunidades para aprender e crescer.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--Section Minhas Habilidades-->
+  <section class="container">
+    <div class="my-skills">
+      <!--Título-->
+      <h2>Minhas Skills</h2>
+      <div class="my-skills-container">
+        <!--Lista de blocos-->
+        <ul class="skill">
+          <li class="skill-container">
+            <img src="./assets/python.svg" alt="">
+            <h4 class="skill-title">Python</h4>
+          </li>
+          <li class="skill-container">
+            <img src="./assets/excel.svg" alt="">
+            <h4 class="skill-title">Excel</h4>
+          </li>
+          <li class="skill-container">
+            <img src="./assets/sql.svg" alt="">
+            <h4 class="skill-title">SQL</h4>
+          </li>
+          <li class="skill-container">
+            <img src="./assets/powerbi.svg" alt="">
+            <h4 class="skill-title">Power BI</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="my-skills">
+      <h2>Outras Skills</h2>
+      <div class="my-skills-container">
+        <ul class="skill">
+          <li class="skill-container">
+            <img src="./assets/HTML.svg" alt="">
+            <h4 class="skill-title">HTML</h4>
+          </li>
+          <li class="skill-container">
+            <img src="./assets/CSS.svg" alt="">
+            <h4 class="skill-title">CSS</h4>
+          </li>
+          <li class="skill-container">
+            <img src="./assets/JS.svg" alt="">
+            <h4 class="skill-title">JavaScript</h4>
+          </li>
+          <li class="skill-container">
+            <img src="./assets/React.svg" alt="">
+            <h4 class="skill-title">React</h4>
+          </li>
+          <li class="skill-container">
+            <img src="./assets/GIT.svg" alt="">
+            <h4 class="skill-title">GIT</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section rodape -->
+  <footer>
+    <div class="container">
+      <!-- Lista de itens -->
+      <ul class="rodape">
+        <li class="rodape-item">
+          <!-- Link com imagem e texto-->
+          <a href="https://www.linkedin.com/in/helipianco/" target="_blank">
+            <img src="./assets/linkedin.svg" alt="">
+            Linkedin
+          </a>
+        </li>
+        <li class="rodape-item">
+          <a href="https://www.instagram.com/netoosp_/" target="_blank">
+            <img src="./assets/instagram.svg" alt="">
+            Instagram
+          </a>
+        </li>
+        <li class="rodape-item">
+          <a href="https://github.com/Netinhosp" target="_blank">
+            <img src="./assets/github.svg" alt="">
+            GitHub
+          </a>
+        </li>
+        <li class="rodape-item">
+            <img src="./assets/email.png" alt="">
+            netinhosp7@gmail.com
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

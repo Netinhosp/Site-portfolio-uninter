@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Icone do site -->
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  <!--Importando Fontes do google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--Importando arquivo de estilo CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--Título do site-->
+  <title>Helí Piancó</title>
+</head>
+<body>
+  <!--Cabeçalho da página-->
+  <header>
+    <!--Div para padronização de tamanho da página-->
+    <div class="container">
+      <div class="header-info">
+        <!--Logo-->
+        <a href="/"><img src="./assets/logo.svg" alt=""></a>
+        <!--Tag que porta links de navegação entre as páginas-->
+        <nav class="menu">
+          <!--Links de navegação-->
+          <a href="/">Sobre mim</a>
+          <a href="/formacoes.html">Formações</a>
+          <a href="/portfolio.html">Portfólio</a>
+          <a href="/contato.html">Contato</a>
+        </nav>
+        <img src="./assets/menu.png" class="menu-mobile-image" id="menu-mobile-image" alt="">
+        <img src="./assets/menu-arrow.png" class="menu-mobile-image-arrow" id="menu-mobile-image-arrow" alt="">
+        <nav class="menu-mobile" id="menu-mobile">
+          <!--Links de navegação-->
+          <a href="/">Sobre mim</a>
+          <a href="/formacoes.html">Formações</a>
+          <a href="/portfolio.html">Portfólio</a>
+          <a href="/contato.html">Contato</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="container">
+      <h2 class="titulo-pagina">Contato</h2>
+
+      <form class="form-contato">
+        <label>
+          Nome
+          <input type="text" placeholder="Digite seu nome">
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="Digite seu email">
+        </label>
+        <label>
+          Celular
+          <input type="text" placeholder="(xx) xxxxx-xxxx">
+        </label>
+        <button>Enviar</button>
+      </form>
+  
+      <ul class="contato">
+        <li class="card">
+          <a href="https://www.linkedin.com/in/helipianco/" target="_blank">
+            <img src="./assets/linkedin.svg" alt="">
+            <h3>Linkedin</h3>
+          </a>
+        </li>
+        <li class="card">
+          <a href="https://www.instagram.com/netoosp_/" target="_blank">
+            <img src="./assets/instagram.svg" alt="">
+            <h3>Instagram</h3>
+          </a>
+        </li>
+        <li class="card">
+          <a href="https://github.com/Netinhosp" target="_blank">
+            <img src="./assets/github.svg" alt="">
+            <h3>Git Hub</h3>
+          </a>
+        </li>
+        <li class="card card-email">
+            <img src="./assets/email.png" alt="">
+            <h3>netinhosp7@gmail.com</h3>
+        </li>
+      </ul>
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
